@@ -1,0 +1,12 @@
+{
+    "name": "off-token-status-effects",
+    "title": "Off Token Status Effects",
+    "description": "",
+    "author": "enso#0361",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.6",
+    "esmodules": [
+        "scripts/off-token-status-effects.js"
+    ]
+}
