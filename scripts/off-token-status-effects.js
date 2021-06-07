@@ -43,6 +43,7 @@ async function newDrawEffects(wrapped, ...args) {
     //const nr = Math.floor(this.data.height * 5);
     const nr = Math.floor(this.data.height * (this.width / w));
     for (let i = 0; i < this.effects.children.length - 1; i++) {
+        if (this.effects.children[i + 1].alpha === 0.80) continue; 
         const x = (i % nr) * w;
         const y = Math.floor(i / nr) * w * -1 - w;
         this.effects.children[i + 1].width = this.effects.children[i + 1].height = w;
